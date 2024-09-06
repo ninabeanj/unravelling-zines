@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background: url('file:///Users/ninajacobson/Desktop/digital%20object/halftonebgtexture.png') repeat,
+  background: url('https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/halftonebgtexture.png') repeat,
   linear-gradient(140deg, #67b346, #235ba8); /* kelly and lake */
   background-size: cover;
   background-repeat: no-repeat; 
