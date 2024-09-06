@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background: url('file:///Users/ninajacobson/Desktop/digital%20object/halftonebgtexture.png') repeat,
+  background: url('https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/halftonebgtexture.png') repeat,
   linear-gradient(130deg, #ee7f4b, #d2515e); /* paprika and tomato */
   background-size: cover; /* Cover entire area */
   background-repeat: no-repeat; 
