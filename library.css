@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  background: url('file:///Users/ninajacobson/Desktop/digital%20object/halftonebgtexture.png') repeat,
+  background: url('https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/halftonebgtexture.png') repeat,
   linear-gradient(60deg, #397e58, #5ec8e5); /* grass green and aqua*/
   background-size: cover; 
   background-repeat: no-repeat; 
