@@ -1,0 +1,213 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('file:///Users/ninajacobson/Desktop/digital%20object/halftonebgtexture.png') repeat,
+  linear-gradient(110deg, #e6b5c9, #f6a04d); /* riso mauve and apricot*/
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'bean_classicregular';
+    src: url('beanclassic-regular-webfont.woff2') format('woff2'),
+         url('beanclassic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'bean_classicregular', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+h2, h3, h4, h5, h6, p, ul, li, i, strong {
+  margin: 0;
+  padding: 0;
+  font-family: courier, monospace;
+  color: var(--header-text);
+}
+
+:root {
+  --primary-color: #82d8d5; /* riso mint*/
+  --secondary-color: #ff7477; /* orange fluo riso */
+  --header-background: #F7F3E7; /* Light cream */
+  --header-text: #333333; /* Dark gray */
+  --nav-box-bg: #82d8d5; /* Same as primary color */
+  --nav-link-color: #FFFFFF; /* White */
+  --nav-link-hover: #82d8d5; /* Same as primary color */
+  --nav-box-border: #4982cf; /* riso sky blue*/
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: var(--header-background);
+  color: var(--header-text);
+  padding: 20px 40px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%; /* Sidebar takes up 20% of the container */
+  height: 100vh; /* Adjust height to fill the viewport */
+  overflow-y: auto;
+  background-color: transparent; 
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.header-box {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--nav-box-bg);
+  border: 2px solid var(--nav-box-border);
+  border-radius: 20px;
+  margin-bottom: 3%;
+}
+
+.header-box h1 {
+  margin: 0;
+  color: var(--header-text);
+}
+
+.nav-container {
+  padding: 20px;
+  border: 2px solid var(--nav-box-border);
+  background-color: var(--nav-box-bg); 
+  border-radius: 20px; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.main-content {
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 30%; /* Space for the sidebar */
+  margin-right: 10%;
+  padding: 20px;
+  display: flex; 
+  flex-direction: column; /* Stack items vertically */
+  align-items: stretch; /* Ensure all items stretch to full width */
+  gap: 20px; /* Add consistent spacing between items */
+}
+
+.post {
+  padding: 20px;
+  background-color: var(--nav-box-bg);
+  border: 2px solid var(--nav-box-border);
+  color: var(--header-text);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .posts-section {
+    width: 100%; /* Takes up full width on smaller screens */
+    margin-left: 0; 
+  }
+
+  .post {
+    width: calc(100% - 20px); 
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Contact form container */
+.contact-form {
+  background-color: var(--nav-box-bg);
+  border: 2px solid var(--nav-box-border);
+  border-radius: 10px;
+  padding: 20px;
+  color: var(--header-text); 
+  box-sizing: border-box;
+  margin: 0 auto; 
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--nav-box-border);
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: var(--primary-color);
+  color: var(--nav-link-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font: courier, monospace;
+}
+
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+}
+
+.post-content {
+    display: flex; /* Flexbox for the content inside the post */
+    width: 100%; /* Ensure it takes full width */
+    align-items: center; /* Center content vertically */
+    text-align: justify;
+}
+
+.author-image {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height equal to the width */
+    margin-right: 5px; /* Space between the image and text */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.post-text {
+    width: 75%; /* Text takes up the remaining 75% */
+}

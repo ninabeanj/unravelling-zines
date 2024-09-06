@@ -1,0 +1,233 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: courier, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('file:///Users/ninajacobson/Desktop/digital%20object/halftonebgtexture.png') repeat,
+  linear-gradient(130deg, #ee7f4b, #d2515e); /* paprika and tomato */
+  background-size: cover; /* Cover entire area */
+  background-repeat: no-repeat; 
+  background-attachment: fixed; /* Background stays fixed when scrolling */
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+    font-family: 'bean_classicregular';
+    src: url('beanclassic-regular-webfont.woff2') format('woff2'),
+         url('beanclassic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'bean_classicregular', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+h2, h3, h4, h5, h6, p, ul, li, i, strong {
+  margin: 0;
+  padding: 0;
+  font-family: courier, monospace;
+  color: var(--header-text);
+}
+
+:root {
+  --primary-color: #62c2b1; /* riso sea foam*/
+  --secondary-color: #235ba8; /* riso lake */
+  --header-background: #F7F3E7; /* Light cream */
+  --header-text: #333333; /* Dark gray */
+  --nav-box-bg: #62c2b1; /* Same as primary color */
+  --nav-link-color: #FFFFFF; /* White */
+  --nav-link-hover: #62c2b1; /* Same as primary color */
+  --nav-box-border: #e6b5c9; /* riso mauve*/
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: var(--header-background);
+  color: var(--header-text);
+  padding: 20px 40px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%; /* Sidebar takes up 20% of the container */
+  height: 100vh; /* Adjust height to fill the viewport */
+  overflow-y: auto;
+  background-color: transparent; 
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.header-box {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--nav-box-bg);
+  border: 2px solid var(--nav-box-border);
+  border-radius: 20px;
+  margin-bottom: 3%;
+}
+
+.header-box h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'bean_classicregular', sans-serif;
+  color: var(--header-text);
+}
+
+.nav-container {
+  padding: 20px;
+  border: 2px solid var(--nav-box-border);
+  background-color: var(--nav-box-bg); 
+  border-radius: 20px; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.main-content {
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 30%; /* sidebar */
+  margin-right: 10%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Styles for the Interview Header */
+.interview-header {
+  font-family: 'bean_classicregular', sans-serif; /* Your custom font */
+  font-size: 2.5em; /* Adjust the size as needed */
+  color: var(--header-text); /* Dark gray color or any other preferred color */
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; /* Space between the header and the circles */
+  margin-top: 2%; /* Space above the header */
+  width: 80%; /* Ensure it takes full width */
+  padding: 20px;
+  text-align: center;
+  background-color: var(--nav-box-bg);
+  border: 2px solid var(--nav-box-border);
+  border-radius: 20px;
+  margin-bottom: 3%;
+}
+
+
+/* Ensure the container is positioned correctly */
+.circle-container {
+  position: relative;
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  margin: 20px; /* Add margin if needed */
+}
+
+/* Circle styling */
+.circle {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  border: 2px solid var(--nav-box-border);
+  display: flex;
+  align-items: center; /* Centers text vertically */
+  justify-content: center; /* Centers text horizontally */
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center; /* Ensure text aligns center */
+  font-size: 16px; /* Adjust font size as needed */
+  position: relative; /* Ensure circle is positioned correctly */
+}
+
+.circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: var(--secondary-color);
+}
+
+/* Hidden content that expands */
+.circle-content {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 100%; /* Position below the circle */
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--nav-box-bg);
+  border: 2px solid var(--nav-box-border);
+  border-radius: 10px;
+  color: var(--header-text);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box; /* Include padding in width */
+  z-index: 10; /* Ensure content is above other elements */
+}
+
+/* Show the circle-content when the circle is active */
+.circle.active .circle-content {
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: var(--primary-color);
+  margin: 10% auto; /* Center the modal content with some margin from the top */
+  padding: 20px;
+  width: 60%;
+  max-height: 80vh; /* Ensure it doesn't exceed viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,175 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('file:///Users/ninajacobson/Desktop/digital%20object/halftonebgtexture.png') repeat,
+  linear-gradient(20deg, #2f6165, #e3ed55); /* lagoon and lime green */
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+    font-family: 'bean_classicregular';
+    src: url('beanclassic-regular-webfont.woff2') format('woff2'),
+         url('beanclassic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'bean_classicregular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2, h3, h4, h5, h6, p, ul, li, i, strong {
+  margin: 0;
+  padding: 0;
+  font-family: courier, monospace;
+  color: var(--header-text);
+}
+
+:root {
+  --primary-color: #d5e4c0; /* riso mint */
+  --secondary-color: #d2515e; /* tomato riso */
+  --header-background: #F7F3E7; /* Light cream */
+  --header-text: #333333; /* Dark gray */
+  --nav-box-bg: #d5e4c0; /* Same as primary color */
+  --nav-link-color: #FFFFFF; /* White */
+  --nav-link-hover: #d5e4c0; /* Same as primary color */
+  --nav-box-border: #ff7477; /* riso orange fluo */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: var(--header-background);
+  color: var(--header-text);
+  padding: 20px 40px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: transparent;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.header-box {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--nav-box-bg);
+  border: 2px solid var(--nav-box-border);
+  border-radius: 20px;
+  margin-bottom: 3%;
+}
+
+.header-box h1 {
+  margin: 0;
+  color: var(--header-text);
+}
+
+.nav-container {
+  padding: 20px;
+  border: 2px solid var(--nav-box-border);
+  background-color: var(--nav-box-bg);
+  border-radius: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+/* Main content styles */
+.main-content {
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 5%;
+  padding: 20px;
+}
+
+/* Posts section */
+.posts-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Forces two columns */
+  gap: 20px;
+}
+
+/* Post styles */
+.post {
+  position: relative;
+  background-color: var(--nav-box-bg);
+  border: 1px solid var(--nav-box-border);
+  color: var(--header-text);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.expanded-content {
+  display: none;
+  padding: 20px;
+  background-color: var(--nav-box-bg);
+  align-items: center;
+  text-align: justify;
+}
+
+/* Hover effect */
+.post:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post:hover .expanded-content {
+  display: block;
+}
+
+.image {
+  width: 200px;              
+  height: 200px;             
+  object-fit: contain;         
+  margin-left: 25%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

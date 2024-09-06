@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Object</title>
+  <link rel="stylesheet" href="interviews.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="header-box">
+        <h1>Unravelling Zine History</h1>
+      </div>
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">An Explanation of the Research</a></li>
+            <li><a href="timeline.html">Timeline of Techniques and Tools</a></li>
+            <li><a href="interviews.html">Interviews</a></li>
+            <li><a href="library.html">Library</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="main-content">
+
+      <h1 class="interview-header">Interviews</h1>
+
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Laer_98', laerContent)">
+          <span class="circle-text">Laer_98</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Narbonnet Marion', marionContent)">
+          <span class="circle-text">Narbonnet Marion</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Lareessa / My House Is', lareessaContent)">
+          <span class="circle-text">My House Is</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('L encornée synthétique ', neilJobardContent)">
+          <span class="circle-text">L'encornée synthétique </span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Baragouine - le baratin lesbien', baragouineContent)">
+          <span class="circle-text">Le Baratin Lesbien</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Carriola Éditions', carriolaContent)">
+          <span class="circle-text">Carriola Éditions</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Disagrrreement', disagrrreementContent)">
+          <span class="circle-text">Disagrrreement</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Bribri', bribriContent)">
+          <span class="circle-text">Bribri</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Atelier de la Baraque', orianeDubozContent)">
+          <span class="circle-text">Atelier de la Baraque</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('hellahag', hellahagContent)">
+          <span class="circle-text">hellahag</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Les Ciseaux Fanzine', ophelieContent)">
+          <span class="circle-text">Les Ciseaux Fanzine</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Panda', nelSoihierContent)">
+          <span class="circle-text">Panda</span>
+        </div>
+      </div>
+      <div class="circle-container">
+        <div class="circle" onclick="openModal('Tristan Baia', tristanBaiaContent)">
+          <span class="circle-text">Tristan Baia</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="modal-title"></h2>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Link to JavaScript File -->
+  <script src="interviews.js"></script>
+</body>
+</html>

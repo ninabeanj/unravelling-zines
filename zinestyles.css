@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'bean_classicregular';
+  src: url('beanclassic-regular-webfont.woff2') format('woff2'),
+       url('beanclassic-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbars due to floating elements */
+}
+
+body {
+  background: linear-gradient(180deg, #333333, #000000); /* Dark grey and black */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  color: white; /* Set all text color to white */
+}
+
+h1 {
+  font-family: 'bean_classicregular', sans-serif;
+  font-size: 4em; /* Adjust the size as needed */
+  color: white; /* White text color */
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #5ec8e5; /* riso aqua */
+  --secondary-color: #ffffff; /* white */
+  --header-background: #F7F3E7; /* Light cream */
+  --header-text: #ffffff; /* White text color */
+  --nav-box-bg: #5ec8e5; /* Same as primary color */
+  --nav-link-color: #ffffff; /* White text color for links */
+  --nav-link-hover: #ff7477; /* Secondary color on hover */
+  --nav-box-border: #397e58; /* riso grass green */
+}
+
+.container {
+  text-align: center; /* Center-align the content */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line on smaller screens */
+  gap: 10px; /* Space between buttons */
+}
+
+.nav-button {
+  position: relative; /* Position relative to place the pseudo-element */
+  display: inline-block; /* Adjust width to fit content */
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'bean_classicregular', sans-serif; /* Use custom font */
+  color: var(--nav-link-color);
+  background: transparent; /* Ensure no background */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Optional: rounded corners */
+  font-size: 1.2em; /* Adjust size as needed */
+  overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
+  transition: color 0.3s ease;
+}
+
+.nav-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px; /* Line thickness */
+  background-color: var(--secondary-color); /* Color of the underline */
+  transform: translateX(-50%);
+  transition: width 0.3s ease; /* Animation effect */
+}
+
+.nav-button:hover::after {
+  width: 100%; /* Full width underline on hover */
+}
+
+.floating-element {
+  position: absolute;
+  border-radius: 50%;
+  width: 50px; /* Size of the floating element */
+  height: 50px; /* Size of the floating element */
+  opacity: 0.5; /* 50% opacity */
+}
+
+.floating-element-1 {
+  background: rgba(0, 255, 255, 0.5); /* Cyan with 50% opacity */
+  animation: float1 10s infinite;
+}
+
+.floating-element-2 {
+  background: rgba(255, 0, 255, 0.5); /* Magenta with 50% opacity */
+  animation: float2 12s infinite;
+}
+
+.floating-element-3 {
+  background: rgba(255, 255, 0, 0.5); /* Yellow with 50% opacity */
+  animation: float3 15s infinite;
+}
