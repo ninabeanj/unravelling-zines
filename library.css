@@ -11,9 +11,11 @@ html, body {
 body {
   background: url('https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/halftonebgtexture.png') repeat,
   linear-gradient(60deg, #397e58, #5ec8e5); /* grass green and aqua*/
-  background-size: cover; 
+  background-size: cover; /* Cover entire area */
   background-repeat: no-repeat; 
-}
+  background-attachment: fixed; /* Background stays fixed when scrolling */
+  display: flex;
+  flex-direction: column;}
 
 @font-face {
     font-family: 'bean_classicregular';
@@ -21,15 +23,14 @@ body {
          url('beanclassic-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 h1 {
   margin: 0;
   padding: 0;
   font-family: 'bean_classicregular', sans-serif;
-  font-weight:normal;
-  font-style:normal;
+  font-weight: normal;
+  font-style: normal;
 }
 
 h2, h3, h4, h5, h6, p, ul, li, i, strong {
@@ -40,14 +41,14 @@ h2, h3, h4, h5, h6, p, ul, li, i, strong {
 }
 
 :root {
-  --primary-color: #e3ed55; /* riso lime*/
+  --primary-color: #e3ed55; /* riso lime */
   --secondary-color: #ff7477; /* orange fluo riso */
   --header-background: #F7F3E7; /* Light cream */
   --header-text: #333333; /* Dark gray */
   --nav-box-bg: #e3ed55; /* Same as primary color */
   --nav-link-color: #FFFFFF; /* White */
   --nav-link-hover: #e3ed55; /* Same as primary color */
-  --nav-box-border: #f6a04d; /* riso apricot*/
+  --nav-box-border: #f6a04d; /* riso apricot */
 }
 
 .header {
@@ -140,13 +141,72 @@ nav ul li a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Title for the post */
+.post-title {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+  margin: 0;
+}
+
+/* Content within the post */
 .post-content {
   padding: 20px;
+  display: none; /* Hide content by default */
+  background-color: var(--nav-box-bg);
+  border-top: 1px solid var(--nav-box-border);
+  position: relative; /* Make room for the close button */
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Hover effect */
 .post:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(255, 116, 119, 5);
   background-color: var(--secondary-color);
+}
+
+/* Show content when post is expanded */
+.post.open .post-content {
+  display: block;
+}
+
+.reference-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.reference-list li {
+  position: relative;
+  padding-left: 25px; /* Space for the star */
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.reference-list li::before {
+  content: '\2605'; /* Unicode star character */
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color); /* Color of the star */
+  font-size: 18px; /* Size of the star */
+  line-height: 1; /* Align star with the text */
 }
