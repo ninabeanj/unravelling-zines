@@ -210,3 +210,19 @@ nav ul li a:hover {
   font-size: 18px; /* Size of the star */
   line-height: 1; /* Align star with the text */
 }
+
+.download-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: var(--nav-link-color); /* Or any color you prefer */
+  background-color: var(--nav-box-bg); /* Background color */
+  border: 2px solid var(--nav-box-border); /* Border color */
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.download-link:hover {
+  background-color: var(--secondary-color); /* Hover effect color */
+}
