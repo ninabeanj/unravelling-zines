@@ -514,7 +514,7 @@ const iunaAlliouxContent = `<h2>Interview with Iuna Allioux</h2><br>
 <p><strong>Nom de l'artiste / Nom de la publication:</strong> Iuna Allioux</p><br>
 <p><strong>Biographie de l'artiste:</strong> Je suis diplômée en arts plastiques de l’Université Toulouse Jean Jaurès en 2017. Je me consacre à l’écriture et à la création graphique. Je suis particulièrement intéressée par les thèmes de l’identité, de la mémoire et des histoires personnelles.</p><br>
 <p><strong>Pronom:</strong> Elle</p><br>
-<p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> <a href="https://iunaallioux.com" target="_blank">iunaallioux.com</a></p><br>
+<p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> <a href="https://www.instagram.com/iuna_alx/" target="_blank">Instagram</a></p><br>
 <p><strong>Qu'est-ce qui a suscité votre intérêt pour la création de fanzines ?</strong></p>
 <p>Mon intérêt pour les fanzines est venu d’une volonté de pouvoir partager mon travail sous une forme accessible. Le format zine me permet de créer de manière indépendante et de diffuser mon travail directement auprès des lecteurs. C’est un moyen de publication libre et très personnel.</p><br>
 <p><strong>Pourriez-vous me décrire votre processus créatif et matériel lorsque vous créez des fanzines ? (comment générez-vous vos idées de contenu / quels médias expérimentez-vous ou préférez-vous utiliser)</strong></p>
