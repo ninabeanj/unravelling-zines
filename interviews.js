@@ -305,8 +305,8 @@ const bribriContent = `<h2>Interview with Bribri</h2><br>
 <p>Ça va être difficile de faire une hiérarchie, dernièrement j'ai adoré <i>Crutch</i> de Marlo Canovsky, <i>C'est nous les pirates</i> (un collectif, avec Maden Moisix dedans, Aqua Femme, etcccc), j'aime beaucoup les <i>Bobby Pins</i> de Cora (vraiment la reine de l'egozine), impossible de choisir en fait !</p>`;
 
 const orianeDubozContent = `<h2>Interview with Oriane Duboz</h2><br>
-<p><strong>Nom de l'artiste / Nom de la publication:</strong> Oriane Duboz / Atelier de la Baraque</p><br>
-<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/PSX_20220726_111517%20(1)%20-%20Oriane%20Duboz.jpg" alt="Artist Image of Oriane Duboz" style="width:400px;height:auto;"></p><br>
+<p><strong>Nom de l'artiste / Nom de la publication:</strong> Oriane Duboz / Atelier de la Baraque</p><br><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/PSX_20220726_111517%20(1)%20-%20Oriane%20Duboz.jpg" alt="Artist Image of Oriane Duboz" style="width:600px;height:auto;"></p><br><br>
 <p><strong>Biographie de l'artiste:</strong> Je suis photographe et artiste plasticienne. Je crée des fanzines en m'appuyant sur des témoignages, entretiens et autres contributions de mes pairs. J'ai créé le festival annuel Cork Zine Fest en Irlande, et gère une fanzinothèque internationale itinérante : l'Agrafeuse.</p><br>
 <p><strong>Pronom:</strong> Elle</p><br>
 <p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> <a href="https://atelierlabaraque.com" target="_blank">atelierlabaraque.com</a> - Instagram: <a href="https://www.instagram.com/atelier_la_baraque" target="_blank">@atelier_la_baraque</a> et <a href="https://www.instagram.com/agrafeuse_zinotheque" target="_blank">@agrafeuse_zinotheque</a></p><br>
@@ -316,7 +316,8 @@ const orianeDubozContent = `<h2>Interview with Oriane Duboz</h2><br>
 <p>Je laisse les idées de fanzine me venir par les situations quotidiennes. Cela peut mener à des fanzines très naïfs, cartoonesques, ou à des fanzines militants avec un fond plus élaboré et formulé. Je suis révoltée du modèle du salariat existant ? Pourquoi pas en faire un fanzine. J'ai mal au cul sur ma selle de vélo ? Ça aussi, ça peut faire un fanzine. Souvent, le fanzine n'est qu'un moyen de partager une expérience personnelle pour la révéler comme expérience commune. Faire groupe.</p><br>
 <p>Tous les moyens DIY sont bons pour créer mes fanzines : la photographie, le collage, le témoignage, l'écriture personnelle, la sérigraphie, la linogravure... J'aime collecter des images, des notes et des photos à mesure des placards fouillés, des vides-greniers, des vieux bâtiments visités illégalement... Par contre, un point auquel je fais attention : mes fanzines doivent rester abordables. Hors de question de faire un livre d'art qui mobilise un max de techniques qui coûtent cher, et de l'appeler "fanzine".</p><br>
 <p><strong>Comment partagez-vous vos fanzines avec les autres ?</strong></p>
-<p>Salons de micro-édition, stands sur des événements et marchés, et ateliers de création. Un petit peu Etsy, mais c'est anecdotique.</p><br>
+<p>Salons de micro-édition, stands sur des événements et marchés, et ateliers de création. Un petit peu Etsy, mais c'est anecdotique.</p><br><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/IMG20211106113413%20-%20Oriane%20Duboz.jpg" alt="Artist Image of Oriane Duboz" style="width:600px;height:auto;"></p><br><br>
 <p><strong>Participez-vous activement à des communautés ou réseaux spécifiques de création de fanzines ?</strong></p>
 <p>Beaucoup de fanzineur.euses.s me contactent du monde entier et m'envoient leurs fanzines pour ma fanzinothèque itinérante. Je suis aussi régulièrement en contact avec la communauté de fanzineur.euse.s irlandais.e.s, ayant créé le Cork Zine Fest maintenant géré par un collectif d'artistes irlandais.e.s.</p><br>
 <p><strong>Avez-vous déjà collaboré avec d'autres artistes ou créateurs de fanzines ? Si oui, comment ces collaborations ont-elles vu le jour ?</strong></p>
@@ -390,7 +391,8 @@ const hellahagContent = `<h2>Interview with HellaHAG</h2><br>
 <p>Comme mon historique ao3, c'est un secret!</p>`;
 
 const ophelieContent = `<h2>Interview with Ophélie</h2><br>
-<p><strong>Nom de l'artiste / Nom de la publication:</strong> Les Ciseaux Fanzine</p><br>
+<p><strong>Nom de l'artiste / Nom de la publication:</strong> Les Ciseaux Fanzine</p><br><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/ciseaux_zines_1%20-%20Julianne%20Sorel.PNG" alt="Ciseaux Zines" style="width:600px;height:auto;"></p><br><br>
 <p><strong>Biographie de l'artiste:</strong> Je crée des fanzines sur les thématiques queer et lesbiennes depuis 6 ans. Je suis basée en région lyonnaise.</p><br>
 <p><strong>Pronom:</strong> Elle / Il</p><br>
 <p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> <a href="https://www.instagram.com/les_ciseaux_fanzine/" target="_blank">Instagram</a> et <a href="https://www.etsy.com/fr/shop/NissaAndCastor" target="_blank">Etsy</a></p><br>
@@ -413,7 +415,8 @@ const ophelieContent = `<h2>Interview with Ophélie</h2><br>
 <p><strong>En ce qui concerne la préservation de vos fanzines, quelle est votre approche ?</strong></p>
 <p>J'envoie régulièrement des exemplaires de mes zines à des fanzinothèques qui les conservent à ma place haha (j'ai tendance à ne pas penser à garder les premiers exemplaires de mes fanzines mais j'y remédie !).</p><br>
 <p><strong>Pensez-vous à la manière dont les générations futures pourraient accéder à votre travail ? Si oui, de quelles manières ?</strong></p>
-<p>Oui, comme dit précédemment en léguant des zines aux fanzinothèques.</p><br>
+<p>Oui, comme dit précédemment en léguant des zines aux fanzinothèques.</p><br><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/ciseaux_zines%20-%20Julianne%20Sorel.PNG" alt="Ciseaux Zines 2" style="width:400px;height:auto;"></p><br><br>
 <p><strong>Avez-vous rencontré des défis ou des considérations intéressants concernant l'archivage de vos fanzines ?</strong></p>
 <p>Oui au sujet du nom car j'utilise différents pseudos et je me disais que cela n'aidait pas pour l'archivage. Et j'oubliais souvent, au début, de dater mes fanzines.</p><br>
 <p><strong>Quels sont vos avis sur l'idée que les fanzines fassent partie des collections de bibliothèques publiques ?</strong></p>
