@@ -47,7 +47,7 @@ const marionContent = `<br><h2>Interview with Marion Narbonnet</h2><br>
 <p><strong>Biographie de l&apos;artiste:</strong> Artiste-peintre et psychomotricienne, je vis dans le cœur du Parc Naturel Régional du Pilat (42). Je réalise des fanzines depuis 2017 et dans mes différents travaux (peintures, fanzines…) je cherche avant tout à rendre palpable l&apos;impalpable, et principalement concernant l&apos;humain (d&apos;où mes métiers d&apos;artiste et de psychomotricienne). Concernant les fanzines, les thèmes principaux explorés sont : la dame qui boit seule, les rencontres faites durant mon tour de France des PMU, la transformation du visage des drag kings/queens, l&apos;amour entre hommes avant 1950, le regard porté sur ses voisins, la dyslexie à travers une autofiction, la traversée des angoisses, nos multiples visages au fil des jours…</p><br>
 <p><strong>Pronom:</strong> Elle</p><br>
 <p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> @mariondelamolette chromofeel.etsy.com</p><br><br>
-<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/IMG_6157%20-%20Marion%20Narbonnet.jpeg" alt="Zine by Marion Narbonnet" style="width:400px;height:auto;"></p><br><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/IMG_6157%20-%20Marion%20Narbonnet.jpeg" alt="Zine by Marion Narbonnet" style="width:600px;height:auto;"></p><br><br>
 <p><strong>Qu&apos;est-ce qui a suscité votre intérêt pour la création de fanzines ?</strong></p>
 <p>Le besoin de partager mon travail sous une forme accessible « chez soi » et « entre ses mains », car l&apos;exposition n&apos;est pas accessible à tous et à tout moment. Le fanzine a aussi une forme très intéressante et percutante du fait que cela crée un espace de pensées à travers des expressions très variées (dessin, photo, écriture…) avec la force première d&apos;être de l&apos;autoédition. Ainsi, la libre expression, chère à mon cœur, trouve tout son sens dans un fanzine.</p><br>
 <p><strong>Pourriez-vous me décrire votre processus créatif et matériel lorsque vous créez des fanzines ?</strong></p>
@@ -62,7 +62,7 @@ const marionContent = `<br><h2>Interview with Marion Narbonnet</h2><br>
 <p>J&apos;ai participé en 2024 à un fanzine collectif vendu au festival de BD d&apos;Angoulême en hommage à Placif et Muzo. On m&apos;a invitée suite à des rencontres au festival de fanzines de Poitiers où j&apos;avais un stand en 2023. Je vais participer d&apos;ici fin 2024 à un fanzine où je ferai les dessins. Une amie costumière au départ a écrit des histoires pour enfants.</p><br>
 <p><strong>Quelle importance accordez-vous au sentiment de communauté au sein de la scène de création de fanzines ?</strong></p>
 <p>C&apos;est une importance de cœur, mais cela n&apos;est pas nécessaire à ma création.</p><br><br>
-<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/IMG_6484%20-%20Marion%20Narbonnet.jpeg" alt="Zine by Marion Narbonnet" style="width:400px;height:auto;"></p><br><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/IMG_6484%20-%20Marion%20Narbonnet.jpeg" alt="Zine by Marion Narbonnet" style="width:600px;height:auto;"></p><br><br>
 <p><strong>Avez-vous déjà participé à des salons de fanzines, des ateliers ou des événements similaires ? Si oui, comment ont-ils impacté votre processus créatif / votre engagement avec la communauté ?</strong></p>
 <p>Oui, cela m&apos;est arrivé (une fois) et cela m&apos;a nourrie dans les possibles, notamment dans les formes physiques que cela peut prendre.</p><br>
 <p><strong>En ce qui concerne la préservation de vos fanzines, quelle est votre approche ?</strong></p>
@@ -73,7 +73,7 @@ const marionContent = `<br><h2>Interview with Marion Narbonnet</h2><br>
 <p>Je ne comprends pas bien cette question…</p><br>
 <p><strong>Quels sont vos avis sur l&apos;idée que les fanzines fassent partie des collections de bibliothèques publiques ?</strong></p>
 <p>Je trouve cela super.</p><br><br>
-<p><img srchttps://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/IMG_8145%20-%20Marion%20Narbonnet.jpeg" alt="Zine by Marion Narbonnet" style="width:400px;height:auto;"></p><br><br>
+<p><img srchttps://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/IMG_8145%20-%20Marion%20Narbonnet.jpeg" alt="Zine by Marion Narbonnet" style="width:600px;height:auto;"></p><br><br>
 <p><strong>À votre avis, quel rôle jouent les fanzines dans la culture actuelle ?</strong></p>
 <p>Elles sont le reflet d&apos;une démarche individuelle ou collective hors des sentiers battus, sortant de l&apos;uniformisation, un souffle d&apos;air nécessaire dans l&apos;art et ses contraintes marketing !</p><br>
 <p><strong>Comment pensez-vous que les fanzines contribuent aux discussions sur l&apos;identité, la politique ou les problèmes sociaux ?</strong></p>
@@ -306,7 +306,7 @@ const bribriContent = `<h2>Interview with Bribri</h2><br>
 
 const orianeDubozContent = `<h2>Interview with Oriane Duboz</h2><br>
 <p><strong>Nom de l'artiste / Nom de la publication:</strong> Oriane Duboz / Atelier de la Baraque</p><br>
-<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/PSX_20220726_111517%20(1)%20-%20Oriane%20Duboz.jpg" alt="Artist Image of Oriane Duboz"></p><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/PSX_20220726_111517%20(1)%20-%20Oriane%20Duboz.jpg" alt="Artist Image of Oriane Duboz" style="width:400px;height:auto;"></p><br>
 <p><strong>Biographie de l'artiste:</strong> Je suis photographe et artiste plasticienne. Je crée des fanzines en m'appuyant sur des témoignages, entretiens et autres contributions de mes pairs. J'ai créé le festival annuel Cork Zine Fest en Irlande, et gère une fanzinothèque internationale itinérante : l'Agrafeuse.</p><br>
 <p><strong>Pronom:</strong> Elle</p><br>
 <p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> <a href="https://atelierlabaraque.com" target="_blank">atelierlabaraque.com</a> - Instagram: <a href="https://www.instagram.com/atelier_la_baraque" target="_blank">@atelier_la_baraque</a> et <a href="https://www.instagram.com/agrafeuse_zinotheque" target="_blank">@agrafeuse_zinotheque</a></p><br>
