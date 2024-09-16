@@ -306,7 +306,7 @@ const bribriContent = `<h2>Interview with Bribri</h2><br>
 
 const orianeDubozContent = `<h2>Interview with Oriane Duboz</h2><br>
 <p><strong>Nom de l'artiste / Nom de la publication:</strong> Oriane Duboz / Atelier de la Baraque</p><br>
-<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/PSX_20220726_111517%20(1)%20-%20Oriane%20Duboz.jpg" alt="Artist Image of Oriane Duboz" style="width:400px;height:auto;"></p><br>
+<p><img src="https://raw.githubusercontent.com/ninabeanj/unravelling-zines/main/PSX_20220726_111517%20(1)%20-%20Oriane%20Duboz.jpg" alt="Artist Image of Oriane Duboz"></p><br>
 <p><strong>Biographie de l'artiste:</strong> Je suis photographe et artiste plasticienne. Je crée des fanzines en m'appuyant sur des témoignages, entretiens et autres contributions de mes pairs. J'ai créé le festival annuel Cork Zine Fest en Irlande, et gère une fanzinothèque internationale itinérante : l'Agrafeuse.</p><br>
 <p><strong>Pronom:</strong> Elle</p><br>
 <p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> <a href="https://atelierlabaraque.com" target="_blank">atelierlabaraque.com</a> - Instagram: <a href="https://www.instagram.com/atelier_la_baraque" target="_blank">@atelier_la_baraque</a> et <a href="https://www.instagram.com/agrafeuse_zinotheque" target="_blank">@agrafeuse_zinotheque</a></p><br>
