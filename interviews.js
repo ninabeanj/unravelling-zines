@@ -511,48 +511,49 @@ const tristanBaiaContent = `<h2>Interview with Tristan Baia</h2><br>
 <p>I really enjoy reading zines created by newcomers to the zine scene. There's something very fresh and exciting about reading a zine created by someone who is still figuring out what the format can offer. That said, I'm not sure if I have a particularly favourite genre or style. I just think zines are neat :)</p>`;
 
 const iunaAlliouxContent = `<h2>Interview with Iuna Allioux</h2><br>
+<p><strong>Prénom et nom:</strong> Iuna Allioux</p><br>
 <p><strong>Nom de l'artiste / Nom de la publication:</strong> Iuna Allioux</p><br>
-<p><strong>Biographie de l'artiste:</strong> Je suis diplômée en arts plastiques de l’Université Toulouse Jean Jaurès en 2017. Je me consacre à l’écriture et à la création graphique. Je suis particulièrement intéressée par les thèmes de l’identité, de la mémoire et des histoires personnelles.</p><br>
+<p><strong>Biographie de l'artiste (2 - 3 phrases):</strong> Autrice de deux romans : <em>Le temps qu'elle passe</em> publié à 16 ans, <em>Demain n'aura pas lieu</em> (Ed Sarbacane) sorti en juin.<br>
+Éditrice aux Éditions Favre en Suisse depuis 3 ans.<br>
+Travaille sur des projets éditoriaux indépendants avec Claire Ménard et a créé le collectif Esprit Frappant.</p><br>
 <p><strong>Pronom:</strong> Elle</p><br>
 <p><strong>Plateformes de médias sociaux / Liens vers le site web:</strong> <a href="https://www.instagram.com/iuna_alx/" target="_blank">Instagram</a></p><br>
 <p><strong>Qu'est-ce qui a suscité votre intérêt pour la création de fanzines ?</strong></p>
-<p>Mon intérêt pour les fanzines est venu d’une volonté de pouvoir partager mon travail sous une forme accessible. Le format zine me permet de créer de manière indépendante et de diffuser mon travail directement auprès des lecteurs. C’est un moyen de publication libre et très personnel.</p><br>
+<p>La liberté du format.</p><br>
 <p><strong>Pourriez-vous me décrire votre processus créatif et matériel lorsque vous créez des fanzines ? (comment générez-vous vos idées de contenu / quels médias expérimentez-vous ou préférez-vous utiliser)</strong></p>
-<p>Je commence souvent par écrire des textes qui expriment des souvenirs ou des émotions. Ensuite, j'associe ces écrits à des images que je crée avec des techniques variées, telles que la gravure, le dessin ou le collage. J’aime utiliser des matériaux recyclés et explorer les textures et les couleurs.</p><br>
+<p>Partir d'un concept puis l'étendre sur plusieurs formats papier, jouer sur la forme et le fond (ex : faux ticket de caisse pour dénoncer le harcèlement de rue sur les femmes).</p><br>
 <p><strong>Comment partagez-vous vos fanzines avec les autres ?</strong></p>
-<p>Je les vends sur mon site internet, dans des salons ou lors d’expositions. J’aime aussi échanger mes zines avec d’autres artistes ou lors de marchés spécialisés dans les créations auto-éditées.</p><br>
+<p>Instagram (réels et posts).</p><br>
 <p><strong>Avez-vous rencontré des défis intéressants ou des succès en diffusant vos fanzines ?</strong></p>
-<p>Le plus grand défi est certainement la visibilité. Bien que les fanzines soient une forme d’art intime et personnelle, il est parfois difficile d’atteindre un large public. Cependant, j’ai rencontré de belles personnes grâce à mes zines, et cela en vaut la peine.</p><br>
+<p>Faire connaître un format inconnu pour beaucoup.</p><br>
 <p><strong>Participez-vous activement à des communautés ou réseaux spécifiques de création de fanzines ?</strong></p>
-<p>Oui, je fais partie de plusieurs groupes de créateurs de zines sur internet, où nous échangeons des conseils, des idées, et où nous organisons des événements de création collective. J’essaie aussi de participer à des ateliers et des festivals dédiés aux fanzines dès que possible.</p><br>
+<p>Non.</p><br>
 <p><strong>Avez-vous déjà collaboré avec d'autres artistes ou créateurs de fanzines ? Si oui, comment ces collaborations ont-elles vu le jour ?</strong></p>
-<p>Oui, j’ai collaboré avec d’autres artistes lors de festivals de zines et d’ateliers. C’est souvent lors de ces événements que naissent des collaborations spontanées, où nous décidons de créer ensemble un projet collectif.</p><br>
+<p>Claire Ménard pour la création du fanzine Turning 20 (formation d'art Appliqués) <a href="https://esprit-frappant.notion.site/Turning-20-ESPRIT-FRAPPANT-8ea442a485e742a7b4405e1f599bfa96" target="_blank">lien</a>.</p><br>
 <p><strong>Quelle importance accordez-vous au sentiment de communauté au sein de la scène de création de fanzines ?</strong></p>
-<p>Le sentiment de communauté est très important pour moi. Les fanzines permettent de créer des liens entre des personnes qui partagent les mêmes valeurs et qui souhaitent diffuser des idées de manière alternative. C’est un espace d’expression libre et bienveillant.</p><br>
+<p>Grande importance pour la diffusion et le partage de création.</p><br>
 <p><strong>Avez-vous déjà participé à des salons de fanzines, des ateliers ou des événements similaires ? Si oui, comment ont-ils impacté votre processus créatif / votre engagement avec la communauté ?</strong></p>
-<p>J’ai participé à plusieurs salons de fanzines en France, et chaque événement est une source d’inspiration. Rencontrer d’autres créateurs me motive à continuer et à explorer de nouvelles idées. Ces événements sont aussi l’occasion de partager des techniques et des savoir-faire.</p><br>
+<p>Non.</p><br>
 <p><strong>En ce qui concerne la préservation de vos fanzines, quelle est votre approche ?</strong></p>
-<p>Je conserve les originaux dans des boîtes d’archives et je numérise toutes mes créations. Cela permet non seulement de garder une trace numérique, mais aussi de pouvoir réimprimer mes zines si nécessaire. Cependant, je valorise aussi l’aspect éphémère du fanzine, qui fait partie de sa nature.</p><br>
+<p>Pour l'instant nous n'avons pas de système de préservation.</p><br>
 <p><strong>Pensez-vous à la manière dont les générations futures pourraient accéder à votre travail ? Si oui, de quelles manières ?</strong></p>
-<p>Je pense que les générations futures pourraient découvrir mon travail à travers des archives numériques ou des bibliothèques spécialisées. Mais je n’ai pas de plan précis pour l’archivage à long terme, je laisse les choses se faire naturellement.</p><br>
+<p>De manière numérique éventuellement.</p><br>
 <p><strong>Avez-vous rencontré des défis ou des considérations intéressants concernant l'archivage de vos fanzines ?</strong></p>
-<p>Un des défis est de savoir comment stocker les fanzines de manière à les protéger tout en respectant leur caractère artisanal. J’essaie de trouver un équilibre entre protection et accessibilité.</p><br>
+<p>Nous n'y avons pas réfléchi.</p><br>
 <p><strong>Quels sont vos avis sur l'idée que les fanzines fassent partie des collections de bibliothèques publiques ?</strong></p>
-<p>Je trouve que c’est une excellente idée. Les fanzines permettent de documenter des mouvements culturels, politiques et sociaux souvent ignorés par les médias traditionnels. Leur présence dans les bibliothèques pourrait offrir une perspective différente aux lecteurs.</p><br>
+<p>Cela me semble être une très bonne idée et permettrait de faire connaître ce médium et de lui donner de l'importance.</p><br>
 <p><strong>À votre avis, quel rôle jouent les fanzines dans la culture actuelle ?</strong></p>
-<p>Les fanzines sont un espace d’expression libre et créatif. Ils offrent une plateforme pour des voix marginalisées et permettent de partager des idées de manière accessible. Dans un monde où tout est de plus en plus numérisé, les fanzines apportent un contact tangible et humain.</p><br>
+<p>Un rôle d'édition indépendante, à contre-courant de l'édition mainstream, qui publie vite et en grandes quantités.</p><br>
 <p><strong>Comment pensez-vous que les fanzines contribuent aux discussions sur l'identité, la politique ou les problèmes sociaux ?</strong></p>
-<p>Les fanzines sont souvent utilisés pour aborder des sujets comme l’identité, la politique et les luttes sociales. Ils permettent aux créateurs de partager leurs expériences personnelles et de créer des liens avec ceux qui vivent des situations similaires. C’est un moyen puissant de faire entendre des voix souvent ignorées par les médias.</p><br>
+<p>Ils apportent une approche graphique, poétique, et visuelle très intéressante.</p><br>
 <p><strong>Avez-vous reçu des réactions mémorables ou des impacts de vos créations de fanzines au sein de votre public ou de votre communauté ?</strong></p>
-<p>Oui, certaines personnes m’ont dit que mes zines les avaient aidées à réfléchir à leur propre identité ou à mieux comprendre certains sujets. Cela me touche beaucoup, car c’est une des raisons pour lesquelles je crée.</p><br>
+<p>Beaucoup plus d'impact et de retours que prévu, nous étions très surprises.</p><br>
 <p><strong>Qu'est-ce que vous trouvez le plus stimulant et gratifiant dans le processus de création de fanzines ?</strong></p>
-<p>Ce qui me stimule le plus, c’est la liberté totale de création. Il n’y a pas de règles, et je peux vraiment m’exprimer comme je le souhaite. Le fait de voir mon travail prendre forme sous mes yeux est extrêmement gratifiant.</p><br>
+<p>La création à deux permet d'approfondir le sujet. Le côté graphique et visuel est plutôt apporté par Claire Ménard, tandis que j'apporte les textes et certaines illustrations.</p><br>
 <p><strong>Où envisagez-vous que la création, la distribution et l'archivage de fanzines se dirigent à l'avenir ?</strong></p>
-<p>Je pense que les fanzines vont continuer à exister en tant que médium alternatif, mais peut-être qu’ils évolueront vers des formats numériques pour toucher un plus large public. Cependant, je crois que le format papier gardera toujours une place spéciale dans le cœur des créateurs.</p><br>
+<p>Vers une vraie institution de préservation, pourquoi pas.</p><br>
 <p><strong>Y a-t-il des changements ou des développements au sein de la communauté de création de fanzines qui vous enthousiasment ou que vous espérez voir ?</strong></p>
-<p>J’aimerais voir plus de collaborations entre artistes de différents horizons et cultures. Cela permettrait d’enrichir la diversité des créations et de toucher de nouveaux publics.</p><br><br>
-<p><strong>Quels sont vos fanzines préférés ?</strong></p>
-<p>J’aime beaucoup les zines de la collection “Queer Zine Archive Project” et ceux de la scène underground de Toulouse. Ils abordent des thèmes variés et sont toujours d’une grande richesse visuelle.</p>`;
+<p>Des bibliothèques peut-être.</p>`;
 
 
 function openModal(title, content) {
